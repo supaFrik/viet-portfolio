@@ -1,6 +1,7 @@
 import BlurFade from "@/components/magicui/blur-fade";
 import { ProjectCard } from "@/components/project-card";
 import { DATA } from "@/data/resume";
+import { RainbowButton } from "../ui/rainbow-button";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -14,9 +15,7 @@ export default function ProjectsSection() {
                             className="flex-1 h-px bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent"
 
                         />
-                        <div className="border bg-primary z-10 rounded-xl px-4 py-1">
-                            <span className="text-background text-sm font-medium">My Projects</span>
-                        </div>
+                          <RainbowButton className="rounded-full">My Projects</RainbowButton>
                         <div
                             className="flex-1 h-px bg-linear-to-l from-transparent from-5% via-border via-95% to-transparent"
 
