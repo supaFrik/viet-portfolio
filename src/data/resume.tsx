@@ -156,8 +156,33 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/vietPlateAi.png",
-      video: "",
+      image: "",
+      video: "/vietPlateAi.webm",
+    },
+    {
+      title: "Viet Portfolio",
+      href: "https://github.com/supaFrik/viet-portfolio",
+      dates: "Personal Project",
+      active: true,
+      description:
+        "Personal portfolio and blog built with Next.js, featuring profile sections, project cards, GitHub activity, theme switching, and MDX-powered writing.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "MDX",
+        "Content Collections",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/supaFrik/viet-portfolio",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/vietPortfolio.webm",
     },
   ],
 } as const;
